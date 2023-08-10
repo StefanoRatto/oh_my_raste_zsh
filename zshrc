@@ -291,6 +291,7 @@ fi
 alias ll='ls -alh'
 alias la='ls -A'
 alias l='ls -CF'
+alias nano='nano -l'
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
