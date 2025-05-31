@@ -292,6 +292,9 @@ alias ll='ls -alh'
 alias la='ls -A'
 alias l='ls -CF'
 alias nano='nano -l'
+alias nvim="~/tools/nvim/bin/nvim"
+alias vim="~/tools/nvim/bin/nvim"
+alias v="~/tools/nvim/bin/nvim"
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
@@ -299,3 +302,6 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     # change suggestion color
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
+
+# Setting default editor to nvim for all applications
+export EDITOR="~/tools/nvim/bin/nvim"
