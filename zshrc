@@ -291,10 +291,13 @@ fi
 alias ll='ls -alh'
 alias la='ls -A'
 alias l='ls -CF'
+alias rm='trash -v'
+alias cp='cp -i'
+alias mv='mv -i'
 alias nano='nano -l'
-alias nvim="~/tools/nvim/bin/nvim"
-alias vim="~/tools/nvim/bin/nvim"
-alias v="~/tools/nvim/bin/nvim"
+#alias nvim='nvim'
+alias vim='nvim'
+alias v='nvim'
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
